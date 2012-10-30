@@ -40,6 +40,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BooleanSwitch.cs" />
+    <Compile Include="Builder\BreakBase.cs" />
+    <Compile Include="Builder\Car.cs" />
+    <Compile Include="Builder\EngineBase.cs" />
+    <Compile Include="Builder\Factory.cs" />
+    <Compile Include="Builder\ICarBuildContext.cs" />
+    <Compile Include="Builder\SeatBase.cs" />
+    <Compile Include="Builder\WheelType.cs" />
     <Compile Include="IOffSwitch.cs" />
     <Compile Include="IOnSwitch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
